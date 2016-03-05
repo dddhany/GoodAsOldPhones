@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="FRG-ii-2NN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="UTJ-eK-SNC">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -36,6 +36,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="heu-6w-o1y"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="productImageView" destination="zIi-Rx-brw" id="YOO-GE-8QD"/>
@@ -44,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0DX-3J-O4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.5" y="434.5"/>
+            <point key="canvasLocation" x="1146.5" y="462.5"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="4zB-yU-SLG">
@@ -134,7 +135,7 @@
                     </subviews>
                 </scrollView>
             </objects>
-            <point key="canvasLocation" x="595.5" y="434.5"/>
+            <point key="canvasLocation" x="145.5" y="-271.5"/>
         </scene>
         <!--Products Table View Controller-->
         <scene sceneID="Ina-Cg-qnu">
@@ -145,13 +146,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="100" id="gEn-sp-CR2">
-                                <rect key="frame" x="0.0" y="50" width="375" height="100"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="100" id="gEn-sp-CR2">
+                                <rect key="frame" x="0.0" y="114" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gEn-sp-CR2" id="rCc-3n-Lu3">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="v3Y-fC-0Ge" kind="push" identifier="ShowProduct" id="ldr-sC-A0B"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -159,11 +163,30 @@
                             <outlet property="delegate" destination="FRG-ii-2NN" id="z4w-wV-nf3"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="trS-iK-VVL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCn-vR-eSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071.5" y="434.5"/>
+            <point key="canvasLocation" x="677.5" y="468.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dCK-fJ-F5Y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UTJ-eK-SNC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ubz-zg-YwC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FRG-ii-2NN" kind="relationship" relationship="rootViewController" id="TJU-tS-3c3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UiC-Kd-fwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="468"/>
         </scene>
     </scenes>
     <resources>

@@ -58,9 +58,9 @@
 			children = (
 				E490F71A1C8A525900738CD0 /* AppDelegate.swift */,
 				E490F71E1C8A525900738CD0 /* Main.storyboard */,
-				E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */,
 				E490F7231C8A525900738CD0 /* LaunchScreen.storyboard */,
 				E490F7261C8A525900738CD0 /* Info.plist */,
+				E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */,
 				E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */,
 				E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */,
 			);
