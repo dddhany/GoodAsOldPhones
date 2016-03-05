@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		E490F71B1C8A525900738CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F71A1C8A525900738CD0 /* AppDelegate.swift */; };
 		E490F7201C8A525900738CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E490F71E1C8A525900738CD0 /* Main.storyboard */; };
-		E490F7221C8A525900738CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E490F7211C8A525900738CD0 /* Assets.xcassets */; };
 		E490F7251C8A525900738CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E490F7231C8A525900738CD0 /* LaunchScreen.storyboard */; };
 		E490F72D1C8A5A1C00738CD0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */; };
 		E490F72F1C8A5DCF00738CD0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */; };
+		E490F7311C8A677100738CD0 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E490F7171C8A525800738CD0 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E490F71A1C8A525900738CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E490F71F1C8A525900738CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E490F7211C8A525900738CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E490F7241C8A525900738CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E490F7261C8A525900738CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				E490F71A1C8A525900738CD0 /* AppDelegate.swift */,
 				E490F71E1C8A525900738CD0 /* Main.storyboard */,
-				E490F7211C8A525900738CD0 /* Assets.xcassets */,
+				E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */,
 				E490F7231C8A525900738CD0 /* LaunchScreen.storyboard */,
 				E490F7261C8A525900738CD0 /* Info.plist */,
 				E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */,
@@ -127,7 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E490F7251C8A525900738CD0 /* LaunchScreen.storyboard in Resources */,
-				E490F7221C8A525900738CD0 /* Assets.xcassets in Resources */,
 				E490F7201C8A525900738CD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E490F72D1C8A5A1C00738CD0 /* ProductViewController.swift in Sources */,
+				E490F7311C8A677100738CD0 /* ProductsTableViewController.swift in Sources */,
 				E490F71B1C8A525900738CD0 /* AppDelegate.swift in Sources */,
 				E490F72F1C8A5DCF00738CD0 /* ContactViewController.swift in Sources */,
 			);
