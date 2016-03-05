@@ -29,6 +29,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcH-xN-Cmi">
                                 <rect key="frame" x="81" y="178" width="212" height="41"/>
                                 <state key="normal" image="button-addtocart"/>
+                                <connections>
+                                    <action selector="addToCardPressed:" destination="v3Y-fC-0Ge" eventType="touchUpInside" id="hxa-3Q-B5H"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
