@@ -13,6 +13,7 @@
 		E490F72D1C8A5A1C00738CD0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */; };
 		E490F72F1C8A5DCF00738CD0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */; };
 		E490F7311C8A677100738CD0 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */; };
+		E490F7331C8A711A00738CD0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F7321C8A711A00738CD0 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		E490F7321C8A711A00738CD0 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E490F7231C8A525900738CD0 /* LaunchScreen.storyboard */,
 				E490F7261C8A525900738CD0 /* Info.plist */,
 				E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */,
+				E490F7321C8A711A00738CD0 /* Product.swift */,
 				E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */,
 				E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				E490F72D1C8A5A1C00738CD0 /* ProductViewController.swift in Sources */,
 				E490F7311C8A677100738CD0 /* ProductsTableViewController.swift in Sources */,
+				E490F7331C8A711A00738CD0 /* Product.swift in Sources */,
 				E490F71B1C8A525900738CD0 /* AppDelegate.swift in Sources */,
 				E490F72F1C8A5DCF00738CD0 /* ContactViewController.swift in Sources */,
 			);
