@@ -14,6 +14,7 @@
 		E490F72F1C8A5DCF00738CD0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */; };
 		E490F7311C8A677100738CD0 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */; };
 		E490F7331C8A711A00738CD0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490F7321C8A711A00738CD0 /* Product.swift */; };
+		E490F7351C8A768E00738CD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E490F7341C8A768E00738CD0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		E490F7301C8A677100738CD0 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		E490F7321C8A711A00738CD0 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E490F7341C8A768E00738CD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E490F7321C8A711A00738CD0 /* Product.swift */,
 				E490F72C1C8A5A1C00738CD0 /* ProductViewController.swift */,
 				E490F72E1C8A5DCF00738CD0 /* ContactViewController.swift */,
+				E490F7341C8A768E00738CD0 /* Images.xcassets */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E490F7351C8A768E00738CD0 /* Images.xcassets in Resources */,
 				E490F7251C8A525900738CD0 /* LaunchScreen.storyboard in Resources */,
 				E490F7201C8A525900738CD0 /* Main.storyboard in Resources */,
 			);
